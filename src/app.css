@@ -11,9 +11,10 @@
 		box-sizing: inherit;
 	}
 
+	html,
 	body {
 		/* Makes sure that there are no horizontal scrollbars when things overflow the viewport */
-		@apply overflow-x-hidden box-border;
+		@apply w-screen overflow-x-hidden box-border;
 	}
 
 	/* Make images easier to work with */

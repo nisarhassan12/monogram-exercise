@@ -11,7 +11,7 @@
 
 <Hero />
 
-<main>
+<main class="w-full">
 	<Javascript />
 	<LinesGrid class="-mt-56 sm:-mt-96 xl:-mt-[560px] pb-[800px]" renderSquiggly={true}>
 		<FallingLogos />
