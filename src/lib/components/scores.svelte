@@ -1,4 +1,4 @@
-<ul class="flex flex-wrap justify-center gap-12 xl:gap-16 list-none">
+<ul class="flex flex-wrap justify-center gap-6 sm:gap-12 xl:gap-16 list-none">
 	{#each Array(4) as _, i}
 		<li
 			class="relative flex justify-center items-center rounded-full h-32 w-32 sm:h-40 sm:w-40 xl:h-52 xl:w-52 border-4 border-solid border-[#EFFFE2] font-bold text-4xl sm:text-5xl xl:text-6xl leading-[76px] text-[#EFFFE2]"

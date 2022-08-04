@@ -11,15 +11,15 @@
 
 <Hero />
 
-<main class="w-full">
+<main class="">
 	<Javascript />
 	<LinesGrid class="-mt-56 sm:-mt-96 xl:-mt-[560px] pb-[800px]" renderSquiggly={true}>
 		<FallingLogos />
 	</LinesGrid>
 	<Api />
 	<Markup />
-	<LinesGrid>
-		<AuditScores />
-		<Footer />
-	</LinesGrid>
 </main>
+<LinesGrid>
+	<AuditScores />
+	<Footer />
+</LinesGrid>
