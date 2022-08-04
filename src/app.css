@@ -2,12 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
 	*,
 	*::before,
 	*::after {
-		
+		margin: 0;
+		padding: 0;
 		box-sizing: inherit;
+	}
+
+	body {
+		/* Makes sure that there are no horizontal scrollbars when things overflow the viewport */
+		@apply overflow-x-hidden box-border;
+	}
+
+	/* Make images easier to work with */
+	img,
+	picture {
+		@apply max-w-full block object-contain;
 	}
 }
