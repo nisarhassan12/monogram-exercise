@@ -6,7 +6,7 @@
 </script>
 
 <Container class="mt-16 md:mt-32 2xl:mt-40 relative">
-	<div>
+	<header>
 		<Heading type="h1" class="flex gap-2 sm:block">
 			jamstack <span
 				class="2xl:ml-5 bg-gradient-to-r from-[#fec087] to-[#cc77a1] bg-clip-text text-transparent"
@@ -37,5 +37,5 @@
 				aria-label="hidden"
 			/>
 		</div>
-	</div>
+	</header>
 </Container>
