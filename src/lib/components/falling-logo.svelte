@@ -8,5 +8,6 @@
 </script>
 
 <div class="flex justify-center" style={parentStyles}>
-	<img {src} {alt} class="h-6 sm:h-8 lg:h-10 {clazz}" style={styles}>
+	<img {src} {alt} class="h-5 w-16 xs:w-auto
+	sm:h-8 lg:h-10 {clazz}" style={styles}>
 </div>
